@@ -1,9 +1,9 @@
-$backgroundColor: rgba(200, 200, 200, 0.9);
-$chromeColor: rgba(52, 61, 78, 1);
-$chromeColor2: white;
-$chromeColor3: grey;
-$bubbleColor: rgba(255, 255, 255, 0.8);
-$textColor: rgba(52, 61, 78, 1);
+$backgroundColor: rgba(255, 255, 255, 0.863);
+$chromeColor: rgb(5, 59, 158);
+$chromeColor2: rgba(175, 223, 255, 0.39);
+$chromeColor3: rgba(128, 128, 128, 0.356);
+$bubbleColor: rgba(83, 219, 253, 0.808);
+$textColor: rgb(16, 19, 24);
 $linkColor: #3498db;
 
 .chatroom {
@@ -19,13 +19,15 @@ $linkColor: #3498db;
   overflow: hidden;
   box-sizing: border-box;
   box-shadow: 0 0 0 2px rgba(white, 0.8);
+  transition: height 0.7s ease-in-out, visibility 0.7s linear;
 
   * {
     box-sizing: border-box;
   }
 
   &.closed {
-    height: 40px;
+    visibility: hidden;
+    height: 0px;
   }
 
   h3 {
