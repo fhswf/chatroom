@@ -1,8 +1,9 @@
-$backgroundColor: rgba(253, 253, 254, 0.863);
+$backgroundColor: rgb(253, 253, 254);
 $chromeColor: rgb(57, 101, 159);
-$chromeColor2: rgba(175, 223, 255, 0.39);
-$chromeColor3: rgba(180, 190, 195, 0.356);
-$bubbleColor: rgba(221, 74, 159, 0.808);
+$chromeColor2: rgb(111, 112, 114);
+$chromeColor3: rgb(180, 190, 195);
+//$bubbleColor: rgba(221, 74, 159, 0.808);
+$bubbleColor: rgb(180, 190, 195);
 $textColor: rgb(16, 19, 24);
 $linkColor: rgb(190, 0, 110);
 
@@ -12,13 +13,13 @@ $linkColor: rgb(190, 0, 110);
   color: $textColor;
   max-height: 90vh;
   background-color: $backgroundColor;
-  border-radius: 3px;
+  border-radius: 1.25rem;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   letter-spacing: normal;
   overflow: hidden;
   box-sizing: border-box;
-  box-shadow: 0 0 0 2px rgba(white, 0.8);
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.16);
   transition: height 0.7s ease-in-out, visibility 0.7s linear;
 
   * {
@@ -243,8 +244,8 @@ $linkColor: rgb(190, 0, 110);
       box-shadow: none;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
-      border-top-right-radius: 3px;
-      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3.125rem;
+      border-bottom-right-radius: 3.125rem;
       cursor: pointer;
       transition: all 0.3s ease;
       white-space: nowrap;
