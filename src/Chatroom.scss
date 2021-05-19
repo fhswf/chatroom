@@ -1,4 +1,4 @@
-$backgroundColor: rgb(253, 253, 254);
+$backgroundColor: rgb(255, 255, 255);
 $chromeColor: rgb(57, 101, 159);
 $chromeColor2: rgb(111, 112, 114);
 $chromeColor3: rgb(180, 190, 195);
@@ -13,7 +13,7 @@ $linkColor: rgb(190, 0, 110);
   color: $textColor;
   max-height: 90vh;
   background-color: $backgroundColor;
-  border-radius: 1.25rem;
+  border-radius: 2.125rem; //1.25rem;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   letter-spacing: normal;
@@ -33,7 +33,7 @@ $linkColor: rgb(190, 0, 110);
 
   h3 {
     background-color: $chromeColor;
-    color: #fff;
+    color: $backgroundColor; //rgb(253, 253, 254);
     margin: 0;
     height: 40px;
     font-weight: 600;
@@ -55,7 +55,7 @@ $linkColor: rgb(190, 0, 110);
     .chat {
       background: $bubbleColor;
       position: relative;
-      padding: 5px 13px;
+      padding: 1.25rem;
       font-size: 14px;
       border-radius: 10px;
       list-style: none;
@@ -205,8 +205,8 @@ $linkColor: rgb(190, 0, 110);
       border-right: none;
       color: $textColor;
       padding: 0 5px;
-      border-top-left-radius: 3px;
-      border-bottom-left-radius: 3px;
+      border-top-left-radius: 1.25rem;
+      border-bottom-left-radius: 1.25rem;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       height: 30px;
