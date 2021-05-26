@@ -207,7 +207,7 @@ $linkColor: rgb(190, 0, 110);
     align-items: center;
 
     input[type="text"] {
-      background-color: 0.25rem 0.25rem 1rem rgba(0,0,0,0.16);;
+      background-color: $bubbleColor;
       outline: 0;
       border: 2px solid $textColor;
       border-right: none;
@@ -275,8 +275,8 @@ $linkColor: rgb(190, 0, 110);
     width: 30px;
     margin-left: 5px;
     background: $backgroundColor;
-    border: 1px solid $chromeColor;
-    color: $textColor;
+    border: 2px solid $textColor
+    color: $chromeColor;
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease;
