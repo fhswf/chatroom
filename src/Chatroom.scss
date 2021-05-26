@@ -36,8 +36,9 @@ $linkColor: rgb(190, 0, 110);
     color: $chromeColor; //rgb(253, 253, 254);
     margin: 0;
     height: 40px;
+    font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.125rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,11 +54,12 @@ $linkColor: rgb(190, 0, 110);
     -webkit-overflow-scrolling: touch;
 
     .chat {
-      background: $bubbleColor;
+      background: $backgroundColor;
       position: relative;
       padding: 1.25rem;
       font-size: 14px;
       border-radius: 10px;
+      border-color: 2px solid $textColor;
       list-style: none;
       float: left;
       clear: both;
