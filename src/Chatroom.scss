@@ -59,7 +59,6 @@ $linkColor: rgb(190, 0, 110);
       padding: 1.25rem;
       font-size: 14px;
       border-radius: 10px;
-      border-color: 2px solid $textColor;
       list-style: none;
       float: left;
       clear: both;
@@ -73,12 +72,14 @@ $linkColor: rgb(190, 0, 110);
 
       &.left {
         border-bottom-left-radius: 0;
+        border-color: 2px solid $textColor;
       }
 
       &.right {
         float: right;
         clear: both;
         border-bottom-right-radius: 0;
+        border-color: 2px solid $textColor;
       }
 
       .text {
