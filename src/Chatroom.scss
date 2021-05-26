@@ -52,11 +52,13 @@ $linkColor: rgb(190, 0, 110);
     height: calc(100% - 80px);
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
+    border-color: 2px solid $textColor;
 
     .chat {
       background: $backgroundColor;
       position: relative;
       padding: 1.25rem;
+      font-family: "Open Sans",Helvetica,Verdana,Arial,sans-serif;
       font-size: 14px;
       border-radius: 10px;
       list-style: none;
@@ -84,6 +86,7 @@ $linkColor: rgb(190, 0, 110);
 
       .text {
         word-wrap: break-word;
+        color: $chromeColor;
       }
 
       &.chat-img {
