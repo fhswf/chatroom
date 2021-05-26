@@ -180,7 +180,7 @@ $linkColor: rgb(190, 0, 110);
         font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
 
         background-color: $backgroundColor;
-        color: $textColor;
+        color: $linkColor;
         border: 2px solid $textColor;
         padding: 5px 10px;
         letter-spacing: normal;
@@ -237,30 +237,23 @@ $linkColor: rgb(190, 0, 110);
     }
 
     input[type="submit"] {
-
+      
       display: inline-block;
-      transition: all 0.3s ease;
-      cursor: pointer;
-      margin: 3px;
-      font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
-
-      background-color: $backgroundColor;
-      color: $textColor;
+      background: $backgroundColor;
       border: 2px solid $textColor;
-      padding: 5px 10px;
-      letter-spacing: normal;
-      //border-radius: 5px;
+      color: $linkColor;
+
+      font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
+      padding: 0 5px;
+      //padding: 1.25rem 3rem 1rem;
+      border-radius: 3.125rem;
       border-top-left-radius: 1.25rem;
       border-bottom-left-radius: 1.25rem;
       border-top-right-radius: 1.25rem;
       border-bottom-right-radius: 1.25rem;
-
-      //padding: 0 5px;
-      //padding: 1.25rem 3rem 1rem;
-      //border-radius: 3.125rem;
-      //font-size: 1rem;
-      //position: relative;
-      //transition: 0.2s all ease-in-out;
+      font-size: 1rem;
+      position: relative;
+      transition: 0.2s all ease-in-out;
 
       margin-left: 5px;
       height: 30px;
@@ -268,7 +261,7 @@ $linkColor: rgb(190, 0, 110);
       line-height: 1;
       text-align: center;
 
-      font-size: 12px;
+      //font-size: 12px;
       flex: 1;
       box-shadow: none;
       cursor: pointer;
@@ -292,8 +285,8 @@ $linkColor: rgb(190, 0, 110);
     margin-left: 5px;
     background: $backgroundColor;
     border: 2px solid $textColor;
-    color: $chromeColor;
-    border-radius: 3px;
+    color: $linkColor;
+    border-radius: 3.125rem;
     cursor: pointer;
     transition: all 0.3s ease;
 
