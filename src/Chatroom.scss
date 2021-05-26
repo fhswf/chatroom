@@ -176,21 +176,27 @@ $linkColor: rgb(190, 0, 110);
         cursor: pointer;
         margin: 3px;
 
-        background-color: $chromeColor;
-        color: $chromeColor2;
+        font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
+
+        background-color: $backgroundColor;
+        color: $textColor;
         border: 2px solid $chromeColor2;
         padding: 5px 10px;
         letter-spacing: normal;
-        border-radius: 5px;
+        //border-radius: 5px;
+        border-top-left-radius: 1.25rem;
+        border-bottom-left-radius: 1.25rem;
+        border-top-right-radius: 1.25rem;
+        border-bottom-right-radius: 1.25rem;
 
         &:hover,
         &.chat-button-selected {
-          background-color: rgba($chromeColor, 0.6);
+          background-color: $bubbleColor;
           color: $chromeColor2;
         }
         &.chat-button-disabled {
           color: $chromeColor3;
-          border: 2px solid $chromeColor3;
+          border: 2px solid $textColor
         }
       }
     }
@@ -251,7 +257,7 @@ $linkColor: rgb(190, 0, 110);
       height: 30px;
       min-width: 70px;
       line-height: 1;
-      text-align: match-parent;
+      text-align: center;
 
       font-size: 12px;
       flex: 1;
