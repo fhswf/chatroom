@@ -32,8 +32,8 @@ $linkColor: rgb(190, 0, 110);
   }
 
   h3 {
-    background-color: $chromeColor;
-    color: $backgroundColor; //rgb(253, 253, 254);
+    background-color: $backgroundColor;
+    color: $chromeColor; //rgb(253, 253, 254);
     margin: 0;
     height: 40px;
     font-weight: 600;
@@ -193,15 +193,15 @@ $linkColor: rgb(190, 0, 110);
     width: 100%;
     margin: 0;
     padding: 0 5px;
-    background-color: $chromeColor;
+    background-color: $backgroundColor;
     display: flex;
     flex-direction: row;
     align-items: center;
 
     input[type="text"] {
-      background-color: rgba(white, 0.8);
+      background-color: 0.25rem 0.25rem 1rem rgba(0,0,0,0.16);;
       outline: 0;
-      border: 1px solid $chromeColor2;
+      border: 1px solid $chromeColor;
       border-right: none;
       color: $textColor;
       padding: 0 5px;
@@ -223,9 +223,9 @@ $linkColor: rgb(190, 0, 110);
 
     input[type="submit"] {
       display: inline-block;
-      background: $chromeColor;
-      border: 1px solid $chromeColor2;
-      color: $chromeColor2;
+      background: $backgroundColor;
+      border: 1px solid $chromeColor;
+      color: $textColor;
 
       font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
       padding: 1.25rem 3rem 1rem;
@@ -265,9 +265,9 @@ $linkColor: rgb(190, 0, 110);
     height: 30px;
     width: 30px;
     margin-left: 5px;
-    background: $chromeColor;
-    border: 1px solid $chromeColor2;
-    color: $chromeColor2;
+    background: $backgroundColor;
+    border: 1px solid $chromeColor;
+    color: $textColor;
     border-radius: 3px;
     cursor: pointer;
     transition: all 0.3s ease;

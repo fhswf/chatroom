@@ -7,7 +7,9 @@
   margin: 100px auto;
   width: 360px;
   z-index: 100;
-  box-shadow: 0 0 3em black;
+  border-radius: 2.125rem;
+  /*box-shadow: 0 0 3em black;*/
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0,0,0,0.16);
 }
 
 @media (max-width: 400px) {
