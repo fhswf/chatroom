@@ -38,7 +38,8 @@ $linkColor: rgb(190, 0, 110);
     height: 40px;
     font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
     font-weight: 600;
-    font-size: 1.125rem;
+    //font-size: 1.125rem;
+    font-size: 1.875rem;;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,6 +92,7 @@ $linkColor: rgb(190, 0, 110);
 
       &.chat-img {
         padding: 5px;
+        border-color: none;
       }
 
       a {
@@ -234,7 +236,8 @@ $linkColor: rgb(190, 0, 110);
       color: $textColor;
 
       font-family: "Museo Sans",Helvetica,Verdana,Arial,sans-serif;
-      padding: 1.25rem 3rem 1rem;
+      padding: 0 5px;
+      //padding: 1.25rem 3rem 1rem;
       border-radius: 3.125rem;
       border-top-left-radius: 1.25rem;
       border-bottom-left-radius: 1.25rem;
